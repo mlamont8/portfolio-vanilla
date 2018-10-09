@@ -61,7 +61,6 @@ body {
   .navbar {
     font-size: 18px;
     padding-bottom: 10px;
-    /* color: #f2f2f2; */
     background: none;
     position: fixed; 
     width: 100%;
@@ -81,7 +80,6 @@ body {
 
   .nav-links, #logo {
     text-decoration: none;
-    /* color: rgba(255,255,255,0.7); */
   }
 
   #main-nav li {
@@ -197,7 +195,6 @@ body {
 }
 
 .title-logo{
-  /* color: #3b3838;  */
   padding-bottom: 70px;
   animation: fadeInUp 3s .5s both;
 }
@@ -227,7 +224,6 @@ body {
   background-size: cover;
   background-attachment: fixed; 
   padding-top: 80px;
-  /* padding-bottom: 180px; */
   background-color: #f8f8f8;
   color: #706f6f;
    }
