@@ -53,7 +53,7 @@ body {
     url("./../images/background-alt.jpg") 50% 0 no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
-    color: 
+    
   }
 
   /* Nav */
@@ -68,13 +68,27 @@ body {
     z-index: 1;
   }
 
-  nav.shrink {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(52, 152, 219);
+  .nav-links{
+    color: #f8f8f8;
+    text-transform: uppercase;
+  }
+
+  .nav-links:hover{
+    color: #0f0f0f;
+  }
+
+  .nav-links:hover{
+    transform: scaleX(1.9);
+  }
+
+  nav.shrink .nav-links {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: #0f0f0f;
     height: 60px;
     padding-top: 0px;
   }
 
+ 
   /* Nav for mobile */
 
 
@@ -151,7 +165,7 @@ body {
   #navbar-toggle {
      display: none;
   }
-  #logo img:hover, .nav-links:hover {
+  #logo img:hover {
     color: #f2f2f2;
   }
 }
@@ -199,9 +213,6 @@ body {
   animation: fadeInUp 3s .5s both;
 }
 
-.title-logo img{
-  background-color: #3b3838;
-}
 
 .title-divider{
   background-color: rgb(52, 152, 219);
@@ -304,8 +315,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  /* background-color: #1b1b1b; */
 }
+
 .projectContainer div {
 border-color: white;
 }
@@ -317,7 +328,7 @@ border-color: white;
 
 .iLink:hover,
 .contactButton:hover {
-  transform: scale(1.2);
+  transform: scaleX(1.2);
 }
 
 .fa-laptop{
@@ -362,6 +373,7 @@ border-color: white;
 
 .projectTech{
   padding: 30px 0;
+  color: #3b3838;
 }
 
 .projectTechIcons i{
