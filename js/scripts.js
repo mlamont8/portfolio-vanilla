@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $(window).scroll(function () {
-        if ($(document).scrollTop() > 650) {
+        if ($(document).scrollTop() > 640) {
             $('nav').addClass('shrink');
             $('#logo img').attr('src', './images/logo-nav-alt.png');
         } else {
