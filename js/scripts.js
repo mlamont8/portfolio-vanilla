@@ -9,7 +9,7 @@ $(document).ready(function () {
             $('#logo img').attr('src', './images/mlamontLogo.png');
         }
     })
-    // Start mobile menu as closed
+    // Start mobile menu as closedgit
     $("#main-nav").hide();
 
     //  Menu toggle for mobile
@@ -23,10 +23,5 @@ $(document).ready(function () {
         $('#main-nav').toggle();
     });
 
-    // Add class to menu item for current page
-    $('#main-nav a').on('click', function () {
-        $('a').removeClass('currentPage');
-        $(this).addClass('currentPage');
 
-    })
 });

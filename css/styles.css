@@ -68,7 +68,9 @@ body {
     z-index: 1;
   }
 
-  .nav-links{
+  /* Color of Nav links and nav bars at top */
+  nav .nav-links,
+  nav #navbar-toggle .fa-bars{
     color: #f8f8f8;
     text-transform: uppercase;
   }
@@ -78,11 +80,13 @@ body {
     border-bottom: medium solid #f8f8f8;
   }
 
-
-  nav.scrolled .nav-links {
+/* Change color for nav links and nav bars after */
+ /* scrolling past top section */
+nav.scrolled .nav-links,
+nav.scrolled #navbar-toggle .fa-bars
+ {
     color: #0f0f0f;
-    height: 60px;
-    padding-top: 0px;
+    /* height: 60px; */
   }
 
 
