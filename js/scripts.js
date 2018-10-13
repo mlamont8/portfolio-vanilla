@@ -2,10 +2,10 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         if ($(document).scrollTop() > 640) {
-            $('nav').addClass('shrink');
+            $('nav').addClass('scrolled');
             $('#logo img').attr('src', './images/logo-nav-alt.png');
         } else {
-            $('nav').removeClass('shrink');
+            $('nav').removeClass('scrolled');
             $('#logo img').attr('src', './images/mlamontLogo.png');
         }
     })
@@ -22,4 +22,11 @@ $(document).ready(function () {
         $('a').smoothScroll();
         $('#main-nav').toggle();
     });
+
+    // Add class to menu item for current page
+    $('#main-nav a').on('click', function () {
+        $('a').removeClass('currentPage');
+        $(this).addClass('currentPage');
+
+    })
 });

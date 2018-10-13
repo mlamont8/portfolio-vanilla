@@ -73,21 +73,23 @@ body {
     text-transform: uppercase;
   }
 
-  .nav-links:hover{
-    color: #0f0f0f;
+ .nav-links:hover
+  {
+    border-bottom: medium solid #f8f8f8;
   }
 
-  .nav-links:hover{
-    transform: scaleX(1.9);
-  }
 
-  nav.shrink .nav-links {
-    /* background-color: rgba(0, 0, 0, 0.5); */
+  nav.scrolled .nav-links {
     color: #0f0f0f;
     height: 60px;
     padding-top: 0px;
   }
 
+
+  nav.scrolled .nav-links:hover
+  {
+    border-bottom: medium solid #0f0f0f;
+  }
  
   /* Nav for mobile */
 
