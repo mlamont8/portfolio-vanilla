@@ -331,8 +331,8 @@ border-color: white;
 }
 
 .iLink:hover,
-.contactButton:hover {
-  transform: scaleX(1.2);
+.contactIcon:hover {
+  transform: scale(1.2);
 }
 
 .fa-laptop{
@@ -422,7 +422,7 @@ hr {
   align-items: center;
 }
 
-.contactButton {
+.contactIcon {
   width: 40px;
   height: auto;
   margin: 0 8px;
@@ -432,6 +432,36 @@ hr {
   margin: 30px 0;
   color: #000;
   font-size: 2em;
+}
+
+.contactMe{
+  font-size: 16px;
+  padding: 5px;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  background-color: rgb(52, 152, 219);
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  transition-duration: 0.4s;
+  margin: 50px 0;
+  cursor: pointer;
+}
+
+.contactMe:hover{
+  background-color: #fff;
+  color: rgb(52, 152, 219);
+  border: 2px solid rgb(52, 152, 219);
+}
+
+.contactMe > span{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa-envelope{
+  margin: 0 10px;
 }
 
 
