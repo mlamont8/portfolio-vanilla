@@ -9,7 +9,6 @@ main {
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
     background-color: #f8f8f8;
     color: #706f6f;
   }
@@ -59,6 +58,7 @@ body {
   /* Nav */
 
   .navbar {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     padding-bottom: 10px;
     background: none;
@@ -86,7 +86,6 @@ nav.scrolled .nav-links,
 nav.scrolled #navbar-toggle .fa-bars
  {
     color: #0f0f0f;
-    /* height: 60px; */
   }
 
 
@@ -404,16 +403,25 @@ hr {
   display: flex;
   flex-direction: column;
   color: #16193b;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
 }
 
 .contactBorder{
-  flex: 1 1 80px;
+  flex: 1 1 110px;
   background-color: rgb(52, 152, 219);
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
+.contactImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contactButton {
   width: 40px;
   height: auto;
