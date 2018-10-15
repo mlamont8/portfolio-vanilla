@@ -89,7 +89,8 @@ nav.scrolled #navbar-toggle .fa-bars
   }
 
 
-  nav.scrolled .nav-links:hover
+  nav.scrolled .nav-links:hover,
+  .socialLinks li a:hover
   {
     border-bottom: medium solid #0f0f0f;
   }
@@ -106,7 +107,8 @@ nav.scrolled #navbar-toggle .fa-bars
     margin: 15px auto;
   }
 
-  #main-nav li:hover{
+  #main-nav li:hover
+  {
     color: rgba(85,172,238 ,1);
   }
 
@@ -178,7 +180,6 @@ nav.scrolled #navbar-toggle .fa-bars
 
 .home {
   height: 650px;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -446,6 +447,7 @@ hr {
   transition-duration: 0.4s;
   margin: 50px 0;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 .contactMe:hover{
@@ -481,12 +483,23 @@ hr {
   list-style: none;
 }
 
-.socialIcons{
+.socialLinks{
   display: flex;
   flex: 1;
   justify-content: space-between;
   padding-top: 50px;
 }
+
+.socialLinks li a{
+  color: rgb(52, 152, 219);
+  text-decoration: none;
+}
+
+.socialLinks li a:hover{
+  border-bottom: medium solid rgb(52, 152, 219);
+}
+
+
 
 /* Footer */
 
