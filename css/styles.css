@@ -342,6 +342,7 @@ nav.scrolled .nav-links:hover,
   width: 70px;
   height: 70px;
   border: 3px solid #82ccdd;
+  color: #82ccdd;
   transform: rotate(45deg);
   margin: 16px 0 30px 0;
   transition: 0.3s linear;
