@@ -23,6 +23,16 @@ h3 {
   color: #3b3838;
 }
 
+.section-title h2 {
+  color: #3b3838;
+  font-family: "Crimson Text", serif;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* animation */
 @keyframes spreadOut {
   0% {
@@ -286,9 +296,94 @@ nav.scrolled .nav-links:hover,
   padding: 0 30px;
 }
 
+.aboutHeader {
+  text-align: center;
+}
+.servicesSection {
+  padding: 60px 0;
+}
+.inner-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.services-title {
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.border {
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.serviceBox {
+  flex: 1 1 33.33%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.serviceIcon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #82ccdd;
+  transform: rotate(45deg);
+  margin: 16px 0 30px 0;
+  transition: 0.3s linear;
+}
+
+.serviceIcon i {
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+
+.serviceBox:hover .serviceIcon {
+  background: #82ccdd;
+  color: #ddd;
+}
+
+.serviceTitle {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.serviceDesc {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 960px) {
+  .serviceBox {
+    flex: 1 1 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .serviceBox {
+    flex: 1 1 100%;
+  }
+}
+
 /* Project Section */
 
-#projects {
+#projects,
+#services {
   padding-top: 80px;
 }
 
